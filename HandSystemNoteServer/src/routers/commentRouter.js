@@ -1,0 +1,127 @@
+/* eslint-disable no-unused-vars */
+import express from "express";
+import Comment from '../models/comment.js'
+// import { sendMessage } from './rabbitmq/producer.js';
+const router = express.Router();
+
+router.get("/", async (res, req) =>
+{
+    console.log("in comment router");
+
+})
+router.post("/:senderId", async (req, res) =>
+{
+    try
+    {
+        const { comment, receiver } = req.body;
+        const newComment = await Comment.create({
+            userId: req.params.senderId,
+            comment: comment,
+            receiver: receiver,
+            sender: req.params.senderId
+        })
+        res.status(201).json(newComment);
+    } catch (error)
+    {
+        console.log("Post Comment error", error);
+    }
+})
+
+
+router.get('/getCommentOfSender/:senderId', async (req, res) =>
+{
+    try
+    {
+        // const commentCollection = dbhd.collection("comments");
+        // console.log(req.params._id)
+        const comments = await Comment.find({ sender: req.params.senderId });
+        res.status(201).json(comments);
+    } catch (error)
+    {
+        console.log("Get comment error", error)
+    }
+})
+
+router.get('/getCommentOfReceiver/:receiverId', async (req, res) =>
+{
+    try
+    {
+        // const commentCollection = dbhd.collection("comments");
+        // console.log(req.params._id)
+        const comments = await Comment.find({ receiver: req.params.receiverId });
+        res.status(201).json(comments);
+    } catch (error)
+    {
+        console.log("Get comment error", error)
+    }
+})
+
+router.get('/getCommentOfSenderOfToday/:senderId', async (req, res) =>
+{
+    try
+    {
+        const startOfDay = new Date();
+        startOfDay.setHours(0, 0, 0, 0); // Set time to 00:00:00
+
+        const endOfDay = new Date();
+        endOfDay.setHours(23, 59, 59, 999); // Set time to 23:59:59
+
+        const comments = await Comment.find({
+            sender: req.params.senderId,
+            createdAt: { $gte: startOfDay, $lte: endOfDay },
+        },
+
+        );
+        res.status(201).json(comments);
+    } catch (error)
+    {
+        console.log("Get comment error", error)
+    }
+})
+
+router.get('/getCommentOfReceiverOfToday/:receiverId', async (req, res) =>
+{
+    try
+    {
+        // const commentCollection = dbhd.collection("comments");
+        // console.log(req.params._id)
+        const comments = await Comment.find({ receiver: req.params.receiverId });
+        res.status(201).json(comments);
+    } catch (error)
+    {
+        console.log("Get comment error", error)
+    }
+})
+
+
+
+router.put('/:_id', async (req, res) =>
+{
+    try
+    {
+        const { comment } = req.body;
+        const oldComment = await Comment.findById(req.params._id);
+        if (!oldComment) return res.status(404).json({ error: "Comment not found" });
+        oldComment.comment = comment
+        await oldComment.save();
+        res.status(201).json(oldComment);
+    } catch (error)
+    {
+        console.log("Update comment error", error)
+    }
+})
+
+router.delete('/:_id', async (req, res) =>
+{
+    try
+    {
+
+        await Comment.findByIdAndDelete(req.params._id);
+        res.status(201).send();
+    } catch (error)
+    {
+        console.log("Delete note error", error)
+    }
+})
+
+export default router;
