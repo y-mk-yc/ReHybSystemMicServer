@@ -28,8 +28,6 @@ export async function consumeMessages(channel, queue)
                                     trackedRequest.res.status(401).send("Invalid token");
                                 } else
                                 {
-                                    // If the token is valid, attach user data and proceed
-                                    // trackedRequest.req.user = user;  // Attach user data to the request
                                     trackedRequest.next();  // Proceed with the next middleware
                                 }
                                 removeRequest(data.requestId);  // Clean up the request tracker

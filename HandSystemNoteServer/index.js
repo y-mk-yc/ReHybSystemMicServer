@@ -42,8 +42,6 @@ app.use(express.json());
 // Define a simple route
 app.get('/', (req, res) =>
 {
-
-    test()
     res.send('Welcome to the Express Note server!');
 });
 
@@ -66,7 +64,8 @@ async function setupRabbitMQ()
 // Middleware to verify token
 const verifyTokenWithAuthServer = async (req, res, next) =>
 {
-    if (req.body.userType == 'P')
+    console.log(req.body, req.params)
+    if (req.body.userType == 'P' || req.params.userType == 'P')
     {
         const token = req.headers['x-access-token'];
 

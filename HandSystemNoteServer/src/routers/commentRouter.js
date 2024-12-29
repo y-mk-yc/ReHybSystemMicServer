@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 import express from "express";
 import Comment from '../models/comment.js'
+import { dbSys } from "../../db_connections.mjs";
 // import { sendMessage } from './rabbitmq/producer.js';
+import { ObjectId } from "mongodb";
 const router = express.Router();
 
 router.get("/", async (res, req) =>
@@ -11,11 +13,12 @@ router.get("/", async (res, req) =>
 })
 router.post("/:senderId", async (req, res) =>
 {
+    console.log("post comment:", req.body, req.params)
     try
     {
         const { comment, receiver } = req.body;
         const newComment = await Comment.create({
-            userId: req.params.senderId,
+            // userId: req.params.senderId,
             comment: comment,
             receiver: receiver,
             sender: req.params.senderId
@@ -48,7 +51,12 @@ router.get('/getCommentOfReceiver/:receiverId', async (req, res) =>
     {
         // const commentCollection = dbhd.collection("comments");
         // console.log(req.params._id)
-        const comments = await Comment.find({ receiver: req.params.receiverId });
+        const patientProfileCollection = dbSys.collection("patient_profiles");
+
+        const patient = await patientProfileCollection.find({
+            patientID: req.params.receiverId
+        })
+        const comments = await Comment.find({ receiver: patient._id });
         res.status(201).json(comments);
     } catch (error)
     {
@@ -83,9 +91,30 @@ router.get('/getCommentOfReceiverOfToday/:receiverId', async (req, res) =>
 {
     try
     {
-        // const commentCollection = dbhd.collection("comments");
-        // console.log(req.params._id)
-        const comments = await Comment.find({ receiver: req.params.receiverId });
+        var comments;
+        const startOfDay = new Date();
+        startOfDay.setHours(0, 0, 0, 0); // Set time to 00:00:00
+
+        const endOfDay = new Date();
+        endOfDay.setHours(23, 59, 59, 999); // Set time to 23:59:59
+
+        if (!req.params.receiverId.includes("PAT"))
+        {
+            const patientProfileCollection = dbSys.collection("patient_profiles");
+
+            const patient = await patientProfileCollection.findOne({
+                _id: new ObjectId(req.params.receiverId),
+            });
+            comments = await Comment.find({
+                receiver: patient.PatientID,
+                createdAt: { $gte: startOfDay, $lte: endOfDay },
+            });
+        }
+        else
+        {
+            comments = Comment.find({ receiver: req.params.receiverId })
+        }
+        // const comments = Comment.find({ receiver: req.params.receiverId })
         res.status(201).json(comments);
     } catch (error)
     {

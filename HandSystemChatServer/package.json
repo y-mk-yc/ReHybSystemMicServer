@@ -1,20 +1,28 @@
 {
-  "name": "rehybsystemchatserver",
+  "name": "chat",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node index.ts",
+    "start": "node dist/index.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "typescript": "^5.7.2"
+  },
   "dependencies": {
-    "cors": "^2.8.5",
+    "@types/cors": "^2.8.17",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.9.0",
-    "nodemon": "^3.1.9",
-    "socket.io": "^4.8.1"
+    "mongoose": "^8.9.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
   }
 }
