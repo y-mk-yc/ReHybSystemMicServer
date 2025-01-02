@@ -2,6 +2,9 @@ import express from "express";
 import http from "http";
 import cors from "cors";
 import dotenv from 'dotenv';
+import rehabilitation from "./src/router/rehabilitation";
+import fs from 'fs';
+import { caculateRotation, getInitialPosition } from "./src/utils/calMaxMin";
 // Load environment variables from the .env file
 dotenv.config();
 const app = express();
@@ -43,6 +46,24 @@ app.get('/', (req, res) =>
     res.send('Welcome to the Express Data server!');
 });
 
+// const filePath = './files/Grasping_pinching.bvh'; // Provide the path to your BVH file
+
+
+// const initialPosition = getInitialPosition(filePath)
+// // console.log(initialPosition)
+// const ROM = caculateRotation(filePath, initialPosition)
+// // console.log(ROM)
+// // for (const name in ROM)
+// // {
+// //     console.log(name, ROM[name]['ROM'])
+// // }
+
+// const jsonString = JSON.stringify(ROM, null, 2); // `null` and `2` add indentation for readability
+
+// // Write the JSON string to a file
+// fs.writeFileSync('./files/Grasping_pinching.json', jsonString, 'utf-8');
+
+app.use('/data', rehabilitation);
 // Define route
 
 // Start the server
@@ -50,3 +71,4 @@ server.listen(port, () =>
 {
     console.log(`Server running on port ${port}`);
 });
+
