@@ -1,0 +1,598 @@
+{
+  "Hips": {
+    "ROM": [],
+    "start": 0,
+    "end": 5,
+    "Xposition": 0,
+    "Yposition": 98.2486,
+    "Zposition": 0,
+    "Yrotation": 0,
+    "Xrotation": 0,
+    "Zrotation": 0
+  },
+  "Spine1": {
+    "ROM": [],
+    "start": 6,
+    "end": 8,
+    "Yrotation": 0,
+    "Xrotation": 8.4838,
+    "Zrotation": -3.9483
+  },
+  "Spine2": {
+    "ROM": [],
+    "start": 9,
+    "end": 11,
+    "Yrotation": 0,
+    "Xrotation": 0.9338000000000006,
+    "Zrotation": -3.9483
+  },
+  "Spine3": {
+    "ROM": [],
+    "start": 12,
+    "end": 14,
+    "Yrotation": 0,
+    "Xrotation": -6.616199999999999,
+    "Zrotation": -3.9483
+  },
+  "Spine4": {
+    "ROM": [],
+    "start": 15,
+    "end": 17,
+    "Yrotation": 0,
+    "Xrotation": -19.3649,
+    "Zrotation": -3.9483
+  },
+  "Neck": {
+    "ROM": [],
+    "start": 18,
+    "end": 20,
+    "Yrotation": 0,
+    "Xrotation": -39.5152,
+    "Zrotation": -3.9483
+  },
+  "Head": {
+    "ROM": [],
+    "start": 21,
+    "end": 23,
+    "Yrotation": 0,
+    "Xrotation": -50.6161,
+    "Zrotation": -3.9483
+  },
+  "HeadTip": {
+    "ROM": [],
+    "start": 24,
+    "end": 26,
+    "Yrotation": 0,
+    "Xrotation": -67.4697,
+    "Zrotation": -3.9483
+  },
+  "RightShoulder": {
+    "ROM": [],
+    "start": 27,
+    "end": 29,
+    "Yrotation": 7,
+    "Xrotation": -18.984299999999998,
+    "Zrotation": -2.0445
+  },
+  "RightArm": {
+    "ROM": [],
+    "start": 30,
+    "end": 32,
+    "Yrotation": 7,
+    "Xrotation": -32.592099999999995,
+    "Zrotation": -2.0445
+  },
+  "RightForeArm": {
+    "ROM": [],
+    "start": 33,
+    "end": 35,
+    "Yrotation": 7,
+    "Xrotation": -59.6943,
+    "Zrotation": -2.0445
+  },
+  "RightHand": {
+    "ROM": [],
+    "start": 36,
+    "end": 38,
+    "Yrotation": 7,
+    "Xrotation": -87.9943,
+    "Zrotation": -2.0445
+  },
+  "RightFinger1Metacarpal": {
+    "ROM": [],
+    "start": 39,
+    "end": 41,
+    "Yrotation": 4.2151,
+    "Xrotation": -90.0723,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger1Proximal": {
+    "ROM": [],
+    "start": 42,
+    "end": 44,
+    "Yrotation": 4.2151,
+    "Xrotation": -94.06139999999999,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger1Distal": {
+    "ROM": [],
+    "start": 45,
+    "end": 47,
+    "Yrotation": 4.2151,
+    "Xrotation": -97.08919999999999,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger1Tip": {
+    "ROM": [],
+    "start": 48,
+    "end": 50,
+    "Yrotation": 4.2151,
+    "Xrotation": -100.5482,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger5Metacarpal": {
+    "ROM": [],
+    "start": 51,
+    "end": 53,
+    "Yrotation": 8.4876,
+    "Xrotation": -62.182199999999995,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger5Proximal": {
+    "ROM": [],
+    "start": 54,
+    "end": 56,
+    "Yrotation": 8.4876,
+    "Xrotation": -66.9285,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger5Medial": {
+    "ROM": [],
+    "start": 57,
+    "end": 59,
+    "Yrotation": 8.4876,
+    "Xrotation": -70.4285,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger5Distal": {
+    "ROM": [],
+    "start": 60,
+    "end": 62,
+    "Yrotation": 8.4876,
+    "Xrotation": -72.6285,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger5Tip": {
+    "ROM": [],
+    "start": 63,
+    "end": 65,
+    "Yrotation": 8.4876,
+    "Xrotation": -74.8694,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger4Metacarpal": {
+    "ROM": [],
+    "start": 66,
+    "end": 68,
+    "Yrotation": 7.5475,
+    "Xrotation": -35.3351,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger4Proximal": {
+    "ROM": [],
+    "start": 69,
+    "end": 71,
+    "Yrotation": 7.5475,
+    "Xrotation": -40.367599999999996,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger4Medial": {
+    "ROM": [],
+    "start": 72,
+    "end": 74,
+    "Yrotation": 7.5475,
+    "Xrotation": -44.66759999999999,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger4Distal": {
+    "ROM": [],
+    "start": 75,
+    "end": 77,
+    "Yrotation": 7.5475,
+    "Xrotation": -47.440799999999996,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger4Tip": {
+    "ROM": [],
+    "start": 78,
+    "end": 80,
+    "Yrotation": 7.5475,
+    "Xrotation": -50.1408,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger3Metacarpal": {
+    "ROM": [],
+    "start": 81,
+    "end": 83,
+    "Yrotation": 6.4553,
+    "Xrotation": -21.751699999999996,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger3Proximal": {
+    "ROM": [],
+    "start": 84,
+    "end": 86,
+    "Yrotation": 6.4553,
+    "Xrotation": -27.116699999999994,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger3Medial": {
+    "ROM": [],
+    "start": 87,
+    "end": 89,
+    "Yrotation": 6.4553,
+    "Xrotation": -31.816699999999994,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger3Distal": {
+    "ROM": [],
+    "start": 90,
+    "end": 92,
+    "Yrotation": 6.4553,
+    "Xrotation": -34.91669999999999,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger3Tip": {
+    "ROM": [],
+    "start": 93,
+    "end": 95,
+    "Yrotation": 6.4553,
+    "Xrotation": -37.91489999999999,
+    "Zrotation": -1.9415000000000002
+  },
+  "RightFinger2Metacarpal": {
+    "ROM": [],
+    "start": 96,
+    "end": 98,
+    "Yrotation": -1.6034,
+    "Xrotation": -9.2618,
+    "Zrotation": -3.8453
+  },
+  "RightFinger2Proximal": {
+    "ROM": [],
+    "start": 99,
+    "end": 101,
+    "Yrotation": -1.6034,
+    "Xrotation": -14.6756,
+    "Zrotation": -3.8453
+  },
+  "RightFinger2Medial": {
+    "ROM": [],
+    "start": 102,
+    "end": 104,
+    "Yrotation": -1.6034,
+    "Xrotation": -19.1756,
+    "Zrotation": -3.8453
+  },
+  "RightFinger2Distal": {
+    "ROM": [],
+    "start": 105,
+    "end": 107,
+    "Yrotation": -1.6034,
+    "Xrotation": -21.9441,
+    "Zrotation": -3.8453
+  },
+  "RightFinger2Tip": {
+    "ROM": [],
+    "start": 108,
+    "end": 110,
+    "Yrotation": -1.6034,
+    "Xrotation": -24.6573,
+    "Zrotation": -3.8453
+  },
+  "LeftShoulder": {
+    "ROM": [],
+    "start": 111,
+    "end": 113,
+    "Yrotation": -7,
+    "Xrotation": -12.3681,
+    "Zrotation": 1.9038
+  },
+  "LeftArm": {
+    "ROM": [],
+    "start": 114,
+    "end": 116,
+    "Yrotation": -7,
+    "Xrotation": -25.9759,
+    "Zrotation": 1.9038
+  },
+  "LeftForeArm": {
+    "ROM": [],
+    "start": 117,
+    "end": 119,
+    "Yrotation": -6.9999,
+    "Xrotation": -53.0781,
+    "Zrotation": 1.9038
+  },
+  "LeftHand": {
+    "ROM": [],
+    "start": 120,
+    "end": 122,
+    "Yrotation": -6.9999,
+    "Xrotation": -81.3781,
+    "Zrotation": 1.9038
+  },
+  "LeftFinger5Metacarpal": {
+    "ROM": [],
+    "start": 123,
+    "end": 125,
+    "Yrotation": -8.4875,
+    "Xrotation": -83.866,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger5Proximal": {
+    "ROM": [],
+    "start": 126,
+    "end": 128,
+    "Yrotation": -8.4875,
+    "Xrotation": -88.6123,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger5Medial": {
+    "ROM": [],
+    "start": 129,
+    "end": 131,
+    "Yrotation": -8.4875,
+    "Xrotation": -92.1123,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger5Distal": {
+    "ROM": [],
+    "start": 132,
+    "end": 134,
+    "Yrotation": -8.4875,
+    "Xrotation": -94.31230000000001,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger5Tip": {
+    "ROM": [],
+    "start": 135,
+    "end": 137,
+    "Yrotation": -8.4875,
+    "Xrotation": -96.5532,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger4Metacarpal": {
+    "ROM": [],
+    "start": 138,
+    "end": 140,
+    "Yrotation": -7.5474000000000006,
+    "Xrotation": -55.8211,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger4Proximal": {
+    "ROM": [],
+    "start": 141,
+    "end": 143,
+    "Yrotation": -7.5474000000000006,
+    "Xrotation": -60.8536,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger4Medial": {
+    "ROM": [],
+    "start": 144,
+    "end": 146,
+    "Yrotation": -7.5474000000000006,
+    "Xrotation": -65.1536,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger4Distal": {
+    "ROM": [],
+    "start": 147,
+    "end": 149,
+    "Yrotation": -7.5474000000000006,
+    "Xrotation": -67.9268,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger4Tip": {
+    "ROM": [],
+    "start": 150,
+    "end": 152,
+    "Yrotation": -7.5474000000000006,
+    "Xrotation": -70.6268,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger3Metacarpal": {
+    "ROM": [],
+    "start": 153,
+    "end": 155,
+    "Yrotation": -6.4553,
+    "Xrotation": -28.743299999999998,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger3Proximal": {
+    "ROM": [],
+    "start": 156,
+    "end": 158,
+    "Yrotation": -6.4553,
+    "Xrotation": -34.1083,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger3Medial": {
+    "ROM": [],
+    "start": 159,
+    "end": 161,
+    "Yrotation": -6.4553,
+    "Xrotation": -38.8083,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger3Distal": {
+    "ROM": [],
+    "start": 162,
+    "end": 164,
+    "Yrotation": -6.4553,
+    "Xrotation": -41.908300000000004,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger3Tip": {
+    "ROM": [],
+    "start": 165,
+    "end": 167,
+    "Yrotation": -6.4553,
+    "Xrotation": -44.9065,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger2Metacarpal": {
+    "ROM": [],
+    "start": 168,
+    "end": 170,
+    "Yrotation": -5.3966,
+    "Xrotation": -15.0137,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger2Proximal": {
+    "ROM": [],
+    "start": 171,
+    "end": 173,
+    "Yrotation": -5.3966,
+    "Xrotation": -20.427500000000002,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger2Medial": {
+    "ROM": [],
+    "start": 174,
+    "end": 176,
+    "Yrotation": -5.3966,
+    "Xrotation": -24.927500000000002,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger2Distal": {
+    "ROM": [],
+    "start": 177,
+    "end": 179,
+    "Yrotation": -5.3966,
+    "Xrotation": -27.696,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger2Tip": {
+    "ROM": [],
+    "start": 180,
+    "end": 182,
+    "Yrotation": -5.3966,
+    "Xrotation": -30.409100000000002,
+    "Zrotation": 2.0068
+  },
+  "LeftFinger1Metacarpal": {
+    "ROM": [],
+    "start": 183,
+    "end": 185,
+    "Yrotation": 2.7849,
+    "Xrotation": -2.078,
+    "Zrotation": 0.103
+  },
+  "LeftFinger1Proximal": {
+    "ROM": [],
+    "start": 186,
+    "end": 188,
+    "Yrotation": 2.7849,
+    "Xrotation": -6.0671,
+    "Zrotation": 0.103
+  },
+  "LeftFinger1Distal": {
+    "ROM": [],
+    "start": 189,
+    "end": 191,
+    "Yrotation": 2.7849,
+    "Xrotation": -9.094899999999999,
+    "Zrotation": 0.103
+  },
+  "LeftFinger1Tip": {
+    "ROM": [],
+    "start": 192,
+    "end": 194,
+    "Yrotation": 2.7849,
+    "Xrotation": -12.553899999999999,
+    "Zrotation": 0.103
+  },
+  "RightThigh": {
+    "ROM": [],
+    "start": 195,
+    "end": 197,
+    "Yrotation": -8.1,
+    "Xrotation": 0,
+    "Zrotation": 0
+  },
+  "RightShin": {
+    "ROM": [],
+    "start": 198,
+    "end": 200,
+    "Yrotation": -8.1,
+    "Xrotation": -43.2,
+    "Zrotation": 0
+  },
+  "RightFoot": {
+    "ROM": [],
+    "start": 201,
+    "end": 203,
+    "Yrotation": -8.1,
+    "Xrotation": -86.5,
+    "Zrotation": -0.0626
+  },
+  "RightToe": {
+    "ROM": [],
+    "start": 204,
+    "end": 206,
+    "Yrotation": -8.1,
+    "Xrotation": -99.6694,
+    "Zrotation": 6.1768
+  },
+  "RightToeTip": {
+    "ROM": [],
+    "start": 207,
+    "end": 209,
+    "Yrotation": -8.1,
+    "Xrotation": -107.1151,
+    "Zrotation": 7.4339
+  },
+  "LeftThigh": {
+    "ROM": [],
+    "start": 210,
+    "end": 212,
+    "Yrotation": 8.1,
+    "Xrotation": 0,
+    "Zrotation": 0
+  },
+  "LeftShin": {
+    "ROM": [],
+    "start": 213,
+    "end": 215,
+    "Yrotation": 8.1,
+    "Xrotation": -43.2,
+    "Zrotation": 0
+  },
+  "LeftFoot": {
+    "ROM": [],
+    "start": 216,
+    "end": 218,
+    "Yrotation": 8.1,
+    "Xrotation": -86.5,
+    "Zrotation": -0.0626
+  },
+  "LeftToe": {
+    "ROM": [],
+    "start": 219,
+    "end": 221,
+    "Yrotation": 8.1,
+    "Xrotation": -99.6694,
+    "Zrotation": 6.1768
+  },
+  "LeftToeTip": {
+    "ROM": [],
+    "start": 222,
+    "end": 224,
+    "Yrotation": 8.1,
+    "Xrotation": -107.1151,
+    "Zrotation": 7.4339
+  },
+  "duration": 59.9
+}

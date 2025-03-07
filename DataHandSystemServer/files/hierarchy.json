@@ -1,0 +1,502 @@
+{
+  "Hips": {
+    "name": "Hips",
+    "parent": null,
+    "children": [
+      "Spine1"
+    ]
+  },
+  "Spine1": {
+    "name": "Spine1",
+    "parent": "Hips",
+    "children": [
+      "Spine2"
+    ]
+  },
+  "Spine2": {
+    "name": "Spine2",
+    "parent": "Spine1",
+    "children": [
+      "Spine3"
+    ]
+  },
+  "Spine3": {
+    "name": "Spine3",
+    "parent": "Spine2",
+    "children": [
+      "Spine4",
+      "RightShoulder",
+      "RightFinger2Metacarpal"
+    ]
+  },
+  "Spine4": {
+    "name": "Spine4",
+    "parent": "Spine3",
+    "children": [
+      "Neck"
+    ]
+  },
+  "Neck": {
+    "name": "Neck",
+    "parent": "Spine4",
+    "children": [
+      "Head"
+    ]
+  },
+  "Head": {
+    "name": "Head",
+    "parent": "Neck",
+    "children": [
+      "HeadTip"
+    ]
+  },
+  "HeadTip": {
+    "name": "HeadTip",
+    "parent": "Head",
+    "children": []
+  },
+  "RightShoulder": {
+    "name": "RightShoulder",
+    "parent": "Spine3",
+    "children": [
+      "RightArm",
+      "RightFinger3Metacarpal"
+    ]
+  },
+  "RightArm": {
+    "name": "RightArm",
+    "parent": "RightShoulder",
+    "children": [
+      "RightForeArm",
+      "RightFinger4Metacarpal"
+    ]
+  },
+  "RightForeArm": {
+    "name": "RightForeArm",
+    "parent": "RightArm",
+    "children": [
+      "RightHand",
+      "RightFinger5Metacarpal"
+    ]
+  },
+  "RightHand": {
+    "name": "RightHand",
+    "parent": "RightForeArm",
+    "children": [
+      "RightFinger1Metacarpal"
+    ]
+  },
+  "RightFinger1Metacarpal": {
+    "name": "RightFinger1Metacarpal",
+    "parent": "RightHand",
+    "children": [
+      "RightFinger1Proximal"
+    ]
+  },
+  "RightFinger1Proximal": {
+    "name": "RightFinger1Proximal",
+    "parent": "RightFinger1Metacarpal",
+    "children": [
+      "RightFinger1Distal"
+    ]
+  },
+  "RightFinger1Distal": {
+    "name": "RightFinger1Distal",
+    "parent": "RightFinger1Proximal",
+    "children": [
+      "RightFinger1Tip"
+    ]
+  },
+  "RightFinger1Tip": {
+    "name": "RightFinger1Tip",
+    "parent": "RightFinger1Distal",
+    "children": []
+  },
+  "RightFinger5Metacarpal": {
+    "name": "RightFinger5Metacarpal",
+    "parent": "RightForeArm",
+    "children": [
+      "RightFinger5Proximal"
+    ]
+  },
+  "RightFinger5Proximal": {
+    "name": "RightFinger5Proximal",
+    "parent": "RightFinger5Metacarpal",
+    "children": [
+      "RightFinger5Medial"
+    ]
+  },
+  "RightFinger5Medial": {
+    "name": "RightFinger5Medial",
+    "parent": "RightFinger5Proximal",
+    "children": [
+      "RightFinger5Distal"
+    ]
+  },
+  "RightFinger5Distal": {
+    "name": "RightFinger5Distal",
+    "parent": "RightFinger5Medial",
+    "children": [
+      "RightFinger5Tip"
+    ]
+  },
+  "RightFinger5Tip": {
+    "name": "RightFinger5Tip",
+    "parent": "RightFinger5Distal",
+    "children": []
+  },
+  "RightFinger4Metacarpal": {
+    "name": "RightFinger4Metacarpal",
+    "parent": "RightArm",
+    "children": [
+      "RightFinger4Proximal"
+    ]
+  },
+  "RightFinger4Proximal": {
+    "name": "RightFinger4Proximal",
+    "parent": "RightFinger4Metacarpal",
+    "children": [
+      "RightFinger4Medial"
+    ]
+  },
+  "RightFinger4Medial": {
+    "name": "RightFinger4Medial",
+    "parent": "RightFinger4Proximal",
+    "children": [
+      "RightFinger4Distal"
+    ]
+  },
+  "RightFinger4Distal": {
+    "name": "RightFinger4Distal",
+    "parent": "RightFinger4Medial",
+    "children": [
+      "RightFinger4Tip"
+    ]
+  },
+  "RightFinger4Tip": {
+    "name": "RightFinger4Tip",
+    "parent": "RightFinger4Distal",
+    "children": []
+  },
+  "RightFinger3Metacarpal": {
+    "name": "RightFinger3Metacarpal",
+    "parent": "RightShoulder",
+    "children": [
+      "RightFinger3Proximal"
+    ]
+  },
+  "RightFinger3Proximal": {
+    "name": "RightFinger3Proximal",
+    "parent": "RightFinger3Metacarpal",
+    "children": [
+      "RightFinger3Medial"
+    ]
+  },
+  "RightFinger3Medial": {
+    "name": "RightFinger3Medial",
+    "parent": "RightFinger3Proximal",
+    "children": [
+      "RightFinger3Distal"
+    ]
+  },
+  "RightFinger3Distal": {
+    "name": "RightFinger3Distal",
+    "parent": "RightFinger3Medial",
+    "children": [
+      "RightFinger3Tip"
+    ]
+  },
+  "RightFinger3Tip": {
+    "name": "RightFinger3Tip",
+    "parent": "RightFinger3Distal",
+    "children": []
+  },
+  "RightFinger2Metacarpal": {
+    "name": "RightFinger2Metacarpal",
+    "parent": "Spine3",
+    "children": [
+      "RightFinger2Proximal"
+    ]
+  },
+  "RightFinger2Proximal": {
+    "name": "RightFinger2Proximal",
+    "parent": "RightFinger2Metacarpal",
+    "children": [
+      "RightFinger2Medial"
+    ]
+  },
+  "RightFinger2Medial": {
+    "name": "RightFinger2Medial",
+    "parent": "RightFinger2Proximal",
+    "children": [
+      "RightFinger2Distal"
+    ]
+  },
+  "RightFinger2Distal": {
+    "name": "RightFinger2Distal",
+    "parent": "RightFinger2Medial",
+    "children": [
+      "RightFinger2Tip"
+    ]
+  },
+  "RightFinger2Tip": {
+    "name": "RightFinger2Tip",
+    "parent": "RightFinger2Distal",
+    "children": []
+  },
+  "LeftShoulder": {
+    "name": "LeftShoulder",
+    "parent": null,
+    "children": [
+      "LeftArm",
+      "LeftFinger2Metacarpal"
+    ]
+  },
+  "LeftArm": {
+    "name": "LeftArm",
+    "parent": "LeftShoulder",
+    "children": [
+      "LeftForeArm",
+      "LeftFinger3Metacarpal"
+    ]
+  },
+  "LeftForeArm": {
+    "name": "LeftForeArm",
+    "parent": "LeftArm",
+    "children": [
+      "LeftHand",
+      "LeftFinger4Metacarpal"
+    ]
+  },
+  "LeftHand": {
+    "name": "LeftHand",
+    "parent": "LeftForeArm",
+    "children": [
+      "LeftFinger5Metacarpal"
+    ]
+  },
+  "LeftFinger5Metacarpal": {
+    "name": "LeftFinger5Metacarpal",
+    "parent": "LeftHand",
+    "children": [
+      "LeftFinger5Proximal"
+    ]
+  },
+  "LeftFinger5Proximal": {
+    "name": "LeftFinger5Proximal",
+    "parent": "LeftFinger5Metacarpal",
+    "children": [
+      "LeftFinger5Medial"
+    ]
+  },
+  "LeftFinger5Medial": {
+    "name": "LeftFinger5Medial",
+    "parent": "LeftFinger5Proximal",
+    "children": [
+      "LeftFinger5Distal"
+    ]
+  },
+  "LeftFinger5Distal": {
+    "name": "LeftFinger5Distal",
+    "parent": "LeftFinger5Medial",
+    "children": [
+      "LeftFinger5Tip"
+    ]
+  },
+  "LeftFinger5Tip": {
+    "name": "LeftFinger5Tip",
+    "parent": "LeftFinger5Distal",
+    "children": []
+  },
+  "LeftFinger4Metacarpal": {
+    "name": "LeftFinger4Metacarpal",
+    "parent": "LeftForeArm",
+    "children": [
+      "LeftFinger4Proximal"
+    ]
+  },
+  "LeftFinger4Proximal": {
+    "name": "LeftFinger4Proximal",
+    "parent": "LeftFinger4Metacarpal",
+    "children": [
+      "LeftFinger4Medial"
+    ]
+  },
+  "LeftFinger4Medial": {
+    "name": "LeftFinger4Medial",
+    "parent": "LeftFinger4Proximal",
+    "children": [
+      "LeftFinger4Distal"
+    ]
+  },
+  "LeftFinger4Distal": {
+    "name": "LeftFinger4Distal",
+    "parent": "LeftFinger4Medial",
+    "children": [
+      "LeftFinger4Tip"
+    ]
+  },
+  "LeftFinger4Tip": {
+    "name": "LeftFinger4Tip",
+    "parent": "LeftFinger4Distal",
+    "children": []
+  },
+  "LeftFinger3Metacarpal": {
+    "name": "LeftFinger3Metacarpal",
+    "parent": "LeftArm",
+    "children": [
+      "LeftFinger3Proximal"
+    ]
+  },
+  "LeftFinger3Proximal": {
+    "name": "LeftFinger3Proximal",
+    "parent": "LeftFinger3Metacarpal",
+    "children": [
+      "LeftFinger3Medial"
+    ]
+  },
+  "LeftFinger3Medial": {
+    "name": "LeftFinger3Medial",
+    "parent": "LeftFinger3Proximal",
+    "children": [
+      "LeftFinger3Distal"
+    ]
+  },
+  "LeftFinger3Distal": {
+    "name": "LeftFinger3Distal",
+    "parent": "LeftFinger3Medial",
+    "children": [
+      "LeftFinger3Tip"
+    ]
+  },
+  "LeftFinger3Tip": {
+    "name": "LeftFinger3Tip",
+    "parent": "LeftFinger3Distal",
+    "children": []
+  },
+  "LeftFinger2Metacarpal": {
+    "name": "LeftFinger2Metacarpal",
+    "parent": "LeftShoulder",
+    "children": [
+      "LeftFinger2Proximal"
+    ]
+  },
+  "LeftFinger2Proximal": {
+    "name": "LeftFinger2Proximal",
+    "parent": "LeftFinger2Metacarpal",
+    "children": [
+      "LeftFinger2Medial"
+    ]
+  },
+  "LeftFinger2Medial": {
+    "name": "LeftFinger2Medial",
+    "parent": "LeftFinger2Proximal",
+    "children": [
+      "LeftFinger2Distal"
+    ]
+  },
+  "LeftFinger2Distal": {
+    "name": "LeftFinger2Distal",
+    "parent": "LeftFinger2Medial",
+    "children": [
+      "LeftFinger2Tip"
+    ]
+  },
+  "LeftFinger2Tip": {
+    "name": "LeftFinger2Tip",
+    "parent": "LeftFinger2Distal",
+    "children": []
+  },
+  "LeftFinger1Metacarpal": {
+    "name": "LeftFinger1Metacarpal",
+    "parent": null,
+    "children": [
+      "LeftFinger1Proximal"
+    ]
+  },
+  "LeftFinger1Proximal": {
+    "name": "LeftFinger1Proximal",
+    "parent": "LeftFinger1Metacarpal",
+    "children": [
+      "LeftFinger1Distal"
+    ]
+  },
+  "LeftFinger1Distal": {
+    "name": "LeftFinger1Distal",
+    "parent": "LeftFinger1Proximal",
+    "children": [
+      "LeftFinger1Tip"
+    ]
+  },
+  "LeftFinger1Tip": {
+    "name": "LeftFinger1Tip",
+    "parent": "LeftFinger1Distal",
+    "children": []
+  },
+  "RightThigh": {
+    "name": "RightThigh",
+    "parent": null,
+    "children": [
+      "RightShin"
+    ]
+  },
+  "RightShin": {
+    "name": "RightShin",
+    "parent": "RightThigh",
+    "children": [
+      "RightFoot"
+    ]
+  },
+  "RightFoot": {
+    "name": "RightFoot",
+    "parent": "RightShin",
+    "children": [
+      "RightToe"
+    ]
+  },
+  "RightToe": {
+    "name": "RightToe",
+    "parent": "RightFoot",
+    "children": [
+      "RightToeTip"
+    ]
+  },
+  "RightToeTip": {
+    "name": "RightToeTip",
+    "parent": "RightToe",
+    "children": []
+  },
+  "LeftThigh": {
+    "name": "LeftThigh",
+    "parent": null,
+    "children": [
+      "LeftShin"
+    ]
+  },
+  "LeftShin": {
+    "name": "LeftShin",
+    "parent": "LeftThigh",
+    "children": [
+      "LeftFoot"
+    ]
+  },
+  "LeftFoot": {
+    "name": "LeftFoot",
+    "parent": "LeftShin",
+    "children": [
+      "LeftToe"
+    ]
+  },
+  "LeftToe": {
+    "name": "LeftToe",
+    "parent": "LeftFoot",
+    "children": [
+      "LeftToeTip"
+    ]
+  },
+  "LeftToeTip": {
+    "name": "LeftToeTip",
+    "parent": "LeftToe",
+    "children": []
+  }
+}
